@@ -28,6 +28,6 @@ spec:
           protocol: TCP
         env:
         - name: CRYSTAL_URL
-          value: "http://ecsdemo-crystal.cicd.svc.cluster.local/crystal"
+          value: "http://ecsdemo-crystal.argocd.svc.cluster.local/crystal"
         - name: NODEJS_URL
-          value: "http://ecsdemo-nodejs.cicd.svc.cluster.local/"
+          value: "http://ecsdemo-nodejs.argocd.svc.cluster.local/"
