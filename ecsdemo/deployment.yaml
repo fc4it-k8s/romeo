@@ -26,9 +26,7 @@ spec:
         ports:
         - containerPort: 3000
           protocol: TCP
-		  
 ---
-
 apiVersion: v1
 kind: Service
 metadata:
@@ -40,9 +38,7 @@ spec:
    -  protocol: TCP
       port: 80
       targetPort: 3000
-	  
 ---
-
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -71,9 +67,7 @@ spec:
         ports:
         - containerPort: 3000
           protocol: TCP
-		  
 ---
-
 apiVersion: v1
 kind: Service
 metadata:
@@ -85,9 +79,7 @@ spec:
    -  protocol: TCP
       port: 80
       targetPort: 3000
-	  
 ---
-
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -121,9 +113,7 @@ spec:
           value: "http://ecsdemo-crystal.default.svc.cluster.local/crystal"
         - name: NODEJS_URL
           value: "http://ecsdemo-nodejs.default.svc.cluster.local/"
-
 ---
-
 apiVersion: v1
 kind: Service
 metadata:
@@ -136,7 +126,3 @@ spec:
    -  protocol: TCP
       port: 80
       targetPort: 3000
-
-
-
-
