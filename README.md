@@ -6,3 +6,6 @@ Livrables:
 - Un cluster installé avec kubeadm avec l'implémentation des
 étapes de la partie 1
 
+Un cluster EKS avec les différentes étapes des parties 2,3,4 et 5
+implémentées.
+
