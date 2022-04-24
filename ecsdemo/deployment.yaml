@@ -87,7 +87,7 @@ metadata:
   labels:
     app: ecsdemo-frontend
 spec:
-  replicas: 20
+  replicas: 1
   selector:
     matchLabels:
       app: ecsdemo-frontend
