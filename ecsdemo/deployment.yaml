@@ -5,7 +5,7 @@ metadata:
   labels:
     app: ecsdemo-crystal
 spec:
-  replicas: 10
+  replicas: 1
   selector:
     matchLabels:
       app: ecsdemo-crystal
@@ -46,7 +46,7 @@ metadata:
   labels:
     app: ecsdemo-nodejs
 spec:
-  replicas: 10
+  replicas: 1
   selector:
     matchLabels:
       app: ecsdemo-nodejs
@@ -87,7 +87,7 @@ metadata:
   labels:
     app: ecsdemo-frontend
 spec:
-  replicas: 1
+  replicas: 10
   selector:
     matchLabels:
       app: ecsdemo-frontend
